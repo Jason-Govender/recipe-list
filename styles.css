@@ -1,6 +1,5 @@
 ﻿body {
-    width: 90vw;
-    height: 100vh;
+    
 }
 
 .landing {
@@ -9,9 +8,12 @@
     justify-content: center;
     display: flex;
     align-items: center;
+    justify-content: center;
     background-size: 200% 200%;
     animation: gradient-flow 5s infinite;
     font-family: Poppins;
+    width: 90vw;
+    height: 100vh;
 }
 
 
@@ -29,6 +31,9 @@
     }
 }
 
+.welcome {
+    text-align: center;
+}
 
 .welcome h1 {
     font-size: 3rem;
