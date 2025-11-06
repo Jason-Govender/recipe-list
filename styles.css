@@ -50,11 +50,15 @@ section {
     color: white;
     margin-left: 80px;
     margin-top: -10px;
+    margin-bottom: 50px;
 
 }
 
-.welcome a {
-    margin-left: 325px;
-    
-        
-}
+    .welcome a {
+        margin-left: 325px;
+        text-decoration: none;
+        color: white;
+        border: solid 1px white;
+        border-radius: 5px;
+        padding: 10px 10px;
+    }
