@@ -1,0 +1,23 @@
+﻿body {
+    width: 90vw;
+    height: 90vh;
+}
+
+.landing {
+    background: linear-gradient(to bottom right, #F7A5A5, #CD2C58);
+    background-repeat: no-repeat;
+    justify-content: center;
+    display: flex;
+}
+section {
+
+}
+
+.welcome {
+    align-content: center;
+    align-items: center;
+}
+
+.welcome h1 {
+    font-size: 2.125rem;
+}
