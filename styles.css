@@ -29,27 +29,16 @@
     }
 }
 
-section {
-
-
-}
-
-.welcome {
-    align-content: center;
-    align-items: center;
-    margin-top: -50px;
-}
 
 .welcome h1 {
     font-size: 3rem;
     color: white;
-    margin-left: 225px;
+
 }
 
 .welcome p {
     font-size: 1.5rem;
     color: white;
-    margin-left: 150px;
     margin-top: -10px;
     margin-bottom: 100px;
 
@@ -66,9 +55,6 @@ section {
         background: linear-gradient(135deg, #f76c6c, #cd2c58);
         text-decoration: none;
         box-shadow: 0 8px 20px rgba(205, 44, 88, 0.3);
-        transition: all 0.3s ease;
-        cursor: pointer;
-        margin-left: 490px;
     }
     .welcome h1,
     .welcome p,
@@ -79,11 +65,11 @@ section {
     }
 
 .welcome p {
-    animation-delay: 1s;
+    animation-delay: 1.5s;
 }
 
 .welcome a {
-    animation-delay: 2s;
+    animation-delay: 3s;
 }
 
 @keyframes fadeUp {
