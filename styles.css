@@ -1,23 +1,60 @@
 ﻿body {
     width: 90vw;
-    height: 90vh;
+    height: 100vh;
 }
 
 .landing {
-    background: linear-gradient(to bottom right, #F7A5A5, #CD2C58);
+    background: linear-gradient(45deg, #F7A5A5, #CD2C58);
     background-repeat: no-repeat;
     justify-content: center;
     display: flex;
+    align-items: center;
+    background-size: 200% 200%;
+    animation: gradient-flow 8s infinite;
 }
+
+
+@keyframes gradient-flow {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
 section {
+
 
 }
 
 .welcome {
     align-content: center;
     align-items: center;
+    margin-top: -50px;
 }
 
 .welcome h1 {
-    font-size: 2.125rem;
+    font-size: 2.5rem;
+    color: white;
+    margin-left: 100px;
+}
+
+.welcome p {
+    font-size: 1.2rem;
+    color: white;
+    margin-left: 80px;
+    margin-top: -10px;
+
+}
+
+.welcome a {
+    margin-left: 325px;
+    
+        
 }
