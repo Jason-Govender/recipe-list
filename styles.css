@@ -4,13 +4,14 @@
 }
 
 .landing {
-    background: linear-gradient(45deg, #F7A5A5, #CD2C58);
+    background: linear-gradient(45deg, #F7A5A5, #D90166);
     background-repeat: no-repeat;
     justify-content: center;
     display: flex;
     align-items: center;
     background-size: 200% 200%;
-    animation: gradient-flow 8s infinite;
+    animation: gradient-flow 5s infinite;
+    font-family: Poppins;
 }
 
 
@@ -40,25 +41,73 @@ section {
 }
 
 .welcome h1 {
-    font-size: 2.5rem;
+    font-size: 3rem;
     color: white;
-    margin-left: 100px;
+    margin-left: 225px;
 }
 
 .welcome p {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     color: white;
-    margin-left: 80px;
+    margin-left: 150px;
     margin-top: -10px;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 
 }
 
     .welcome a {
-        margin-left: 325px;
+        display: inline-block;
+        padding: 14px 36px;
+        border: none;
+        border-radius: 50px;
+        font-size: 1rem;
+        font-weight: 500;
+        color: #fff;
+        background: linear-gradient(135deg, #f76c6c, #cd2c58);
         text-decoration: none;
-        color: white;
-        border: solid 1px white;
-        border-radius: 5px;
-        padding: 10px 10px;
+        box-shadow: 0 8px 20px rgba(205, 44, 88, 0.3);
+        transition: all 0.3s ease;
+        cursor: pointer;
+        margin-left: 490px;
     }
+    .welcome h1,
+    .welcome p,
+    .welcome a {
+        opacity: 0;
+        transform: translateY(25px);
+        animation: fadeUp 1s cubic-bezier(0.25, 1, 0.5, 1) forwards;
+    }
+
+.welcome p {
+    animation-delay: 1s;
+}
+
+.welcome a {
+    animation-delay: 2s;
+}
+
+@keyframes fadeUp {
+    0% {
+        opacity: 0;
+    }
+
+    20% {
+        opacity: 0.20;
+    }
+
+    40% {
+        opacity: 0.4;
+    }
+
+    60% {
+        opacity: 0.6;
+    }
+
+    80% {
+        opacity: 0.8;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
