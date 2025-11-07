@@ -1,56 +1,49 @@
-﻿header img {
-    height: 700px;
-    width: 500px;
+﻿html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+header img {
+    height: 60vw;
+    width: 40vw;
     animation: slide-down 2s ease-out;
     
 }
 
+a{
+    -webkit-tap-highlight-color: transparent;
+    outline: none;
+    user-select: none;
+    -webkit-user-select: none;
+}
 
 .landing {
     background: linear-gradient(45deg, #F7A5A5, #531C2A);
     background-repeat: no-repeat;
     justify-content: center;
-    margin-left: 50px;
     display: flex;
     align-items: center;
     background-size: 200% 200%;
-    animation: gradient-flow 3.5s infinite;
+    animation: gradient-flow 3.5s infinite ease-in-out;
     font-family: Poppins;
-    width: 90vw;
-    height: 100vh;
+    
     flex-direction: column;
-}
-
-
-@keyframes gradient-flow {
-    0% {
-        background-position: 0% 50%;
-    }
-
-    50% {
-        background-position: 100% 50%;
-    }
-
-    100% {
-        background-position: 0% 50%;
-    }
 }
 
 .welcome {
     text-align: center;
 }
 
-
-
-
-
-    
     .welcome h1,
     .welcome p,
     .welcome a{
         opacity: 0;
-        transform: translateY(25px);
-        animation: fadeUp 1s cubic-bezier(0.25, 1, 0.5, 1) forwards;
+        animation: fadeIn 1s cubic-bezier(0.25, 1, 0.5, 1) forwards;
     }
 
     .welcome h1 {
@@ -82,7 +75,7 @@
         animation-delay: 5s;
     }
 
-@keyframes fadeUp {
+@keyframes fadeIn {
     0% {
         opacity: 0;
     }
@@ -136,4 +129,17 @@
         transform: translateY(0);
     }
 }
+
+@keyframes gradient-flow {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
 }
