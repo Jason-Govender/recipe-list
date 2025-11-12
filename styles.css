@@ -60,9 +60,8 @@ nav ul {
 header img {
   height: 60vw;
   width: 40vw;
-  animation: slide-down 2s ease-out;
+  animation: slide-down 1s ease-out;
 }
-
 .search {
   display: flex;
   justify-content: center;
@@ -168,14 +167,14 @@ h2 {
   font-size: 4rem;
   color: white;
   margin-top: 0;
-  animation-delay: 2s;
+  animation-delay: 1s;
 }
 
 .welcome p {
   font-size: 2.5rem;
   color: white;
   margin-top: -10px;
-  animation-delay: 3.5s;
+  animation-delay: 2s;
   margin-bottom: 100px;
 }
 
@@ -187,10 +186,10 @@ h2 {
   font-size: 2rem;
   font-weight: 500;
   color: #fff;
-  background: linear-gradient(135deg, #f76c6c, #cd2c58);
+  background: linear-gradient(135deg, #1b1b1b 0%, #2c2c2c 35%, #3a3a3a 70%, #080808 100%);
   text-decoration: none;
   box-shadow: 0 8px 20px rgba(205, 44, 88, 0.3);
-  animation-delay: 5s;
+  animation-delay: 3s;
 }
 
 @keyframes fadeIn {
