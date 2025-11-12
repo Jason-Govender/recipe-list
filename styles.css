@@ -66,6 +66,7 @@ header img {
 .search {
   display: flex;
   justify-content: center;
+  flex-direction: column;
   height: 12vh;
   width: 100%;
   align-items: center;
@@ -81,9 +82,10 @@ header.search input {
   background: rgba(20, 20, 20, 0.7);
   color: #f2f4ff;
   font-family: Poppins, sans-serif;
-  font-size: 1rem;
+  font-size: 2rem;
   letter-spacing: 0.02em;
   transition: border-color 0.2s, background 0.2s;
+  margin-top: 2rem;
 }
 
 header.search input:focus {
@@ -95,6 +97,13 @@ header.search input:focus {
 header.search input::placeholder {
   color: rgba(220, 224, 236, 0.6);
   font-style: italic;
+  font-size: 2rem;
+}
+
+h1 {
+  font-family: Poppins;
+  color: white;
+  font-size: 4rem;
 }
 
 .landing {
