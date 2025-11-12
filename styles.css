@@ -93,7 +93,7 @@ header img {
   color: white;
   align-items: center;
   justify-content: center;
-  padding: 2rem; /* grows the background area */
+  padding: 1.5rem; /* grows the background area */
   font-size: 4rem; /* adjust icon size */
   background: rgba(20, 20, 20, 0.7);
   border-radius: 999px;
@@ -119,7 +119,6 @@ h1 {
   color: white;
   font-size: 4rem;
   text-align: center;
-  margin-top: 6rem;
 }
 
 h2 {
