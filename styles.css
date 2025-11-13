@@ -145,11 +145,10 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: solid 0.4rem;
-  border-color: none;
+  border: solid 0.4rem #1b1b1b;
   background: linear-gradient(135deg, #1b1b1b 0%, #2c2c2c 35%, #3a3a3a 70%, #080808 100%);
   border-radius: 50px;
-  transition: border-color 0.3s, transform 0.3s;
+  transition: border-color 0.2s, transform 0.3s;
 }
 
 .filter-card.is-active {
