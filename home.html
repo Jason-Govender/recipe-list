@@ -13,16 +13,19 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     />
+    <script src="app.js" defer></script>
   </head>
 
   <body>
     <header>
       <h1>What's Cooking Today, Chef?</h1>
     </header>
-    <section class="search">
+    <form id="searchForm" class="search">
       <input type="search" id="recipeSearch" placeholder="Find a recipe..." />
-      <i class="fa-solid fa-search"></i>
-    </section>
+      <button type="submit" class="search-btn">
+        <i class="fa-solid fa-search"></i>
+      </button>
+    </form>
 
     <h2>Filter By:</h2>
     <main class="filter">
