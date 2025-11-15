@@ -13,30 +13,10 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     />
-    <script src="Filtercard.js" defer></script>
-    <script src="app.js" defer></script>
   </head>
 
   <body>
-    <header>
-      <h1>What's Cooking Today, Chef?</h1>
-    </header>
-    <form class="search">
-      <input type="search" id="recipeSearch" placeholder="Find a recipe..." />
-      <button type="submit" class="search-btn">
-        <i class="fa-solid fa-search"></i>
-      </button>
-    </form>
-
-    <h2>Filter By:</h2>
-    <main class="filter">
-      <section class="filter-card"><i class="fa-solid fa-plate-wheat"></i>Breakfast</section>
-      <section class="filter-card"><i class="fa-solid fa-burger"></i>Lunch</section>
-      <section class="filter-card"><i class="fa-solid fa-pizza-slice"></i>Dinner</section>
-      <section class="filter-card"><i class="fa-solid fa-candy-cane"></i>Snack</section>
-      <section class="filter-card"><i class="fa-solid fa-wine-glass"></i>Drinks</section>
-      <section class="filter-card"><i class="fa-solid fa-ice-cream"></i>Desserts</section>
-    </main>
+    <main id="results-container"></main>
     <nav>
       <ul>
         <li>
@@ -65,5 +45,6 @@
         </li>
       </ul>
     </nav>
+    <script src="results.js"></script>
   </body>
 </html>

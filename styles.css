@@ -215,16 +215,42 @@ header img {
 
 #results-container {
   .filter {
-    width: 90%;
-    height: 100px;
-    margin-left: 1.5rem;
+    width: 100%;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 2rem;
-    padding: 1.5rem;
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 
+.recipe-card {
+  display: flex;
+  height: 15rem;
+  margin-top: 5rem;
+  background: linear-gradient(135deg, #1b1b1b 0%, #2c2c2c 35%, #3a3a3a 70%, #080808 100%);
+  border-radius: 20px;
+}
+
+p {
+  font-family: Poppins;
+  color: white;
+  font-size: 1.3rem;
+}
+
+.recipe-body {
+  display: flex;
+  flex-direction: column;
+  margin-left: 2rem;
+}
+
+.recipe-title {
+  font-size: 1.5rem;
+}
+
+.recipe-link {
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-family: Poppins;
+  color: #ff8fb1;
+}
 @keyframes fadeIn {
   0% {
     opacity: 0;
