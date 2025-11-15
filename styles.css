@@ -8,8 +8,6 @@ body {
   width: 100vw;
   height: 100vh;
   background: linear-gradient(45deg, #f7a5a5, #531c2a);
-  background-size: 200% 200%;
-  animation: gradient-flow 3.5s infinite ease-in-out;
 }
 
 nav {
