@@ -215,6 +215,7 @@ header img {
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-items: center;
+  height: 75vh;
 }
 
 .recipe-card {
@@ -276,6 +277,7 @@ p {
   color: white;
   height: 8rem;
   align-content: center;
+  margin-top: 10rem;
 }
 
 .pagination-btn {
