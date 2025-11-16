@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
   const store = sessionStorage.getItem('recipeData');
   const parse = JSON.parse(store);
-  const recipes = parse.hits.slice(0, 8);
+  const recipes = parse.hits.slice(0, 6);
   renderRecipes(recipes);
 });
 
@@ -30,6 +30,10 @@ function renderRecipes(recipes) {
       <a href="${recipe.url}" target="_blank" class="recipe-link">
         View full recipe
       </a>
+      <footer class='recipe-footer'>
+        <i class="fa-solid fa-plus"></i>
+        <i class="fa-regular fa-star"></i>
+      </footer>
      </section>
     `;
     container.appendChild(recipeCard);
