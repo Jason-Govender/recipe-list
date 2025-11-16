@@ -45,10 +45,10 @@ const nav = document.querySelector('nav');
 
 window.addEventListener('scroll', () => {
   if (window.scrollY > lastScrollY) {
-    // scrolling down
+    // scrolling down → hide nav
     nav.classList.add('hide');
   } else {
-    // scrolling up
+    // scrolling up → show nav
     nav.classList.remove('hide');
   }
 

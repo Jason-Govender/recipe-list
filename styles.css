@@ -11,7 +11,7 @@ body {
 }
 
 nav {
-  height: 12vh;
+  height: 10vh;
   width: 100%;
   transition: transform 0.25s ease;
   position: fixed;
@@ -282,7 +282,8 @@ p {
   color: white;
   height: 8rem;
   align-content: center;
-  margin-top: 10rem;
+  margin-top: 12rem;
+  bottom: 0;
 }
 
 .pagination-btn {
