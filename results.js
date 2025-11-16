@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
   const store = sessionStorage.getItem('recipeData');
   const parse = JSON.parse(store);
-  const recipes = parse.hits.slice(0, 10);
+  const recipes = parse.hits.slice(0, 8);
   renderRecipes(recipes);
 });
 
@@ -21,8 +21,9 @@ function renderRecipes(recipes) {
       : Math.round(recipe.calories ?? 0);
     const recipeCard = document.createElement('article');
     recipeCard.className = 'recipe-card';
-    recipeCard.innerHTML = `<img src="${recipe.image}" alt=${recipe.label} class="recipe-image">
+    recipeCard.innerHTML = `
      <section class="recipe-body">
+      <img src="${recipe.image}" alt=${recipe.label} class="recipe-image"></img>
       <h2 class="recipe-title">${recipe.label}</h2>
       <p class="recipe-source">By ${recipe.source}</p>
       
