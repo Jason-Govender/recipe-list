@@ -39,3 +39,18 @@ function renderRecipes(recipes) {
     container.appendChild(recipeCard);
   });
 }
+
+let lastScrollY = window.scrollY;
+const nav = document.querySelector('nav');
+
+window.addEventListener('scroll', () => {
+  if (window.scrollY > lastScrollY) {
+    // scrolling down
+    nav.classList.add('hide');
+  } else {
+    // scrolling up
+    nav.classList.remove('hide');
+  }
+
+  lastScrollY = window.scrollY;
+});
