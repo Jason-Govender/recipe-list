@@ -227,7 +227,7 @@ header img {
 .recipe-card {
   display: flex;
   flex-direction: column;
-  height: 38rem;
+  height: 43rem;
   width: 30rem;
   margin-top: 2rem;
   background: linear-gradient(135deg, #1b1b1b 0%, #2c2c2c 35%, #3a3a3a 70%, #080808 100%);
@@ -238,8 +238,8 @@ header img {
 .recipe-image {
   display: block;
   margin-top: 1rem;
-  width: 15rem;
-  height: 15rem;
+  width: 25rem;
+  height: 20rem;
   object-fit: cover; /* crop instead of shrink */
   object-position: center; /* center the crop */
   border-radius: 20px;
